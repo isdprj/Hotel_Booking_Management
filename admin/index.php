@@ -15,7 +15,7 @@ if((isset($_SESSION['adminLogin']) && $_SESSION['adminLogin']==true)){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Login Panel</title>
-    <?php require('inc/link.php');?>
+    <?php require('inc/link.php'); ?>
     <style>
         div.login-form{
             position: absolute;
